@@ -12,7 +12,7 @@ Add one inline comment to an existing source file in the YAS application to impr
 
 ## Steps
 
-1. [ ] **analyst (inline_story)** — Convert the ticket into one implementable story with acceptance criteria for adding a single comment.
+1. [x] **analyst (inline_story)** — Convert the ticket into one implementable story with acceptance criteria for adding a single comment.
    - focus: Focus on selecting an appropriate location in existing code where a comment would genuinely improve readability, ensuring the comment explains the purpose or rationale of nearby code.
 2. [ ] **architect_gate (review)** _(auto)_ — Human approval of specs and this plan before Dev.
 3. [ ] **dev** _(auto)_ — Loop delivery.
