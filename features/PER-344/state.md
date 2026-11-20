@@ -1,34 +1,34 @@
 ---
 schema_version: 1
 key: PER-344
-status: waiting_architect_review
-current_node: architect_gate
+status: escalated
+current_node: dev
 track: standard
 involved_repos:
 - app
 depends_on: []
 owner: pavc
-lease_until: '2026-11-22T11:58:40.474507+00:00'
-revision: 12
+lease_until: '2026-11-22T12:01:17.869056+00:00'
+revision: 23
 hub_sha: null
 ticket_hash: f631722beee73f92
 jira_hash: f631722beee73f92
-tpm_approved: false
-specs_locked: false
+tpm_approved: true
+specs_locked: true
 skills_lock:
   bmad: 1cbcfa272fe65787c06a1fa164a901f46117cca7
 stories:
 - 01-app
 child_ticket_keys: []
 critic_iterations: 0
-dev_retries: 0
+dev_retries: 3
 pr_revision_rounds: 0
 gate_rounds: {}
 pr_ids:
   hub_plan: '1'
   hub_arch: '2'
   hub: '2'
-waiting_for: architect_review
+waiting_for: dev_failure
 tokens_in: 30302
 tokens_out: 2484
 cost_anthropic_usd: 0.127858
@@ -78,6 +78,31 @@ history:
 - node: architect_gate
   note: awaiting human hub PR approval
   at: '2026-11-20T11:59:39.801545+00:00'
+- node: architect_gate
+  note: approved via hub PR (reconcile)
+  at: '2026-11-20T12:01:17.743993+00:00'
+- node: architect_gate
+  note: "forge unlocked architect_review \u2192 resume"
+  at: '2026-11-20T12:01:17.869569+00:00'
+- node: architect_gate
+  note: 'repo graph: app: Gortex skipped (gortex call contracts failed: Error: required_capability_incomplete:
+    graph.contracts did not become complete within this request: contract analysis
+    of these inp)'
+  at: '2026-11-20T12:01:27.224275+00:00'
+- node: dev
+  note: no breakdown.md (inline story); no sub-issues to create
+  at: '2026-11-20T12:01:27.259597+00:00'
+- node: dev
+  note: starting
+  at: '2026-11-20T12:01:27.259642+00:00'
+- node: dev
+  note: 'not checked before PR, commands empty in project.yaml: repos.app.commands.test,
+    repos.app.commands.lint'
+  at: '2026-11-20T12:01:27.259678+00:00'
+- node: dev
+  note: 'failed 01-app: agent made no code changes (agent status=error: agent exit
+    1)'
+  at: '2026-11-20T12:02:03.879670+00:00'
 ---
 
 # Feature state

@@ -4,3 +4,9 @@
 {"at": "2026-11-20T11:56:21.981853+00:00", "node": "planner", "event": "llm_ok", "model": "claude-sonnet-4-5-20250929", "in": 6380, "out": 453, "cache_read": 0, "usd": 0.025935, "ms": 9200, "ok": true, "dry_run": false, "error": null}
 {"at": "2026-11-20T11:59:03.633622+00:00", "node": "analyst", "event": "llm_ok", "model": "claude-sonnet-4-5-20250929", "in": 10692, "out": 490, "cache_read": 0, "usd": 0.039426, "ms": 15364, "ok": true, "dry_run": false, "error": null}
 {"at": "2026-11-20T11:59:30.794480+00:00", "node": "analyst", "event": "llm_ok", "model": "claude-sonnet-4-5-20250929", "in": 11087, "out": 1494, "cache_read": 0, "usd": 0.055671, "ms": 27150, "ok": true, "dry_run": false, "error": null}
+{"at": "2026-11-20T12:01:46.939201+00:00", "node": "dev", "event": "cursor_run", "ok": false, "status": "error", "error": "agent exit 1", "story": "01-app", "model": null, "usage": null}
+{"at": "2026-11-20T12:01:47.249053+00:00", "node": "dev", "event": "no_changes", "ok": false, "error": "agent made no code changes (agent status=error: agent exit 1)"}
+{"at": "2026-11-20T12:01:54.506835+00:00", "node": "dev", "event": "cursor_run", "ok": false, "status": "error", "error": "agent exit 1", "story": "01-app", "model": null, "usage": null}
+{"at": "2026-11-20T12:01:55.307855+00:00", "node": "dev", "event": "no_changes", "ok": false, "error": "agent made no code changes (agent status=error: agent exit 1)"}
+{"at": "2026-11-20T12:02:03.716098+00:00", "node": "dev", "event": "cursor_run", "ok": false, "status": "error", "error": "agent exit 1", "story": "01-app", "model": null, "usage": null}
+{"at": "2026-11-20T12:02:03.865141+00:00", "node": "dev", "event": "no_changes", "ok": false, "error": "agent made no code changes (agent status=error: agent exit 1)"}
